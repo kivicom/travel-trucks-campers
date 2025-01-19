@@ -11,7 +11,7 @@
   border-radius: 10px;
   width: 292px;
   height: 320px;
-  background-image: url(../../images/image-not-found.jpg);
+  background-image: url(../../assets/images/image-not-found.jpg);
   object-fit: cover;
 }
 .title_wrap {
