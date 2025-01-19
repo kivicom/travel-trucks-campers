@@ -1,0 +1,8 @@
+.name {
+  text-align: center;
+  color: var(--main);
+}
+.custom_сlass {
+  width: 32px;
+  height: 32px;
+}

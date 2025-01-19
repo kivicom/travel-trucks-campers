@@ -1,0 +1,104 @@
+.camper {
+  border: 1px solid var(--gray-light);
+  border-radius: 20px;
+  padding: 24px;
+  width: 838px;
+  display: flex;
+  gap: 24px;
+}
+.img {
+  display: block;
+  border-radius: 10px;
+  width: 292px;
+  height: 320px;
+  background-image: url(../../images/image-not-found.jpg);
+  object-fit: cover;
+}
+.title_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.title_wrap h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--main);
+}
+.wrap_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--main);
+}
+.wrap_price button {
+  padding: 0;
+  background-color: transparent;
+}
+.info_wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  color: var(--main);
+}
+.rating_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star {
+  fill: var(--rating);
+  margin-right: 4px;
+}
+.location_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location {
+  margin-right: 4px;
+}
+.description {
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 525px;
+  margin-bottom: 24px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;
+  width: 166px;
+  height: 56px;
+  background: var(--button);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  transition: background-color 0.3s ease-out;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--button-hover);
+}
+
+.heart {
+  transition: transform 0.3s ease-out;
+}
+
+.heart:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  fill: var(--button);
+}

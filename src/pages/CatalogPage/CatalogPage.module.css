@@ -1,0 +1,15 @@
+.catalogContainer {
+  padding-top: 48px;
+}
+
+.catalogContainer {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  row-gap: 64px;
+}
+
+@media (max-width: 768px) {
+  .catalogContainer {
+    grid-template-columns: 1fr;
+  }
+}

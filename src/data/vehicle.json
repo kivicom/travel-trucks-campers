@@ -1,0 +1,56 @@
+[
+  {
+    "icon": "icon-diagram",
+    "text": "Automatic",
+    "query": "automatic"
+  },
+  {
+    "icon": "icon-diagram",
+    "text": "Manual",
+    "query": "manual"
+  },
+  {
+    "icon": "icon-petrol",
+    "text": "Petrol",
+    "query": "petrol"
+  },
+  {
+    "icon": "icon-petrol",
+    "text": "Hybrid",
+    "query": "hybrid"
+  },
+  {
+    "icon": "icon-petrol",
+    "text": "Diesel",
+    "query": "diesel"
+  },
+  {
+    "icon": "icon-cup",
+    "text": "Kitchen",
+    "query": "kitchen"
+  },
+  { "icon": "icon-wind", "text": "AC", "query": "AC" },
+  {
+    "icon": "icon-shower",
+    "text": "Bathroom",
+    "query": "bathroom"
+  },
+  {
+    "icon": "icon-radios",
+    "text": "Radio",
+    "query": "radio"
+  },
+  {
+    "icon": "icon-microwave",
+    "text": "Microwave",
+    "query": "microwave"
+  },
+  { "icon": "icon-tv", "text": "TV", "query": "TV" },
+  { "icon": "icon-water", "text": "Water", "query": "water" },
+  { "icon": "icon-gas", "text": "Gas", "query": "gas" },
+  {
+    "icon": "icon-fridge",
+    "text": "Refrigerator",
+    "query": "refrigerator"
+  }
+]

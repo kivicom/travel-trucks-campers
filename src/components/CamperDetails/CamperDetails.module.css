@@ -1,0 +1,45 @@
+.camper {
+  padding: 48px 0 60px 0;
+}
+.camper h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--main);
+  margin-bottom: 8px;
+}
+.info_wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  color: var(--main);
+}
+.rating_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star {
+  fill: var(--rating);
+  margin-right: 4px;
+}
+.location_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location {
+  margin-right: 4px;
+}
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--main);
+  margin-bottom: 28px;
+}
+
+.description {
+  color: var(--text);
+}

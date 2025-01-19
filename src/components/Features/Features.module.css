@@ -1,0 +1,7 @@
+.features_wrap {
+  padding: 44px 52px;
+  border-radius: 10px;
+  width: 527px;
+  height: 500px;
+  background: var(--inputs);
+}

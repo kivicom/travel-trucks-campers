@@ -1,0 +1,9 @@
+[
+  { "icon": "icon-van", "text": "Van", "query": "panelTruck" },
+  {
+    "icon": "icon-integrated",
+    "text": "Fully Integrated",
+    "query": "fullyIntegrated"
+  },
+  { "icon": "icon-alcove", "text": "Alcove", "query": "alcove" }
+]
