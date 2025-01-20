@@ -1,11 +1,8 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import './App.css';
-
 import { Layout } from './components/Layout/Layout';
-import { useDispatch } from 'react-redux';
-import { fetchCampers } from './redux/campers/operations';
+
 import Loader from './components/Loader/Loader';
 
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));
@@ -16,12 +13,6 @@ const Reviews = lazy(() => import('./components/Reviews/Reviews'));
 const CamperPage = lazy(() => import('./pages/CamperPage/CamperPage'));
 
 function App() {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(fetchCampers());
-  }, [dispatch]);
-
   return (
     <Suspense fallback={<Loader />}>
       <Layout>
